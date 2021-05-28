@@ -15,8 +15,7 @@
         <nav aria-label="breadcrumb" class="main-breadcrumb navbackground">
             <ul class="breadcrumb navbackground">
                 <li class="breadcrumb-item mycolor"><a href="#">Home</a></li>
-                <li class="breadcrumb-item mycolor"><a href="#">Job</a></li>
-                <li class="breadcrumb-item mycolor"><a href="#">Job Positions</a></li>
+                <li class="breadcrumb-item mycolor"><a href="../Job List/JobList.html">Job Positions</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Job Details</li>
             </ul>
         </nav>
@@ -62,46 +61,26 @@
                                 <h5>Work Time:</h5>
                                 <p class="left" style="color : rgba(150, 144, 144, 0.63)">Full Time/Part Time/Remote</p>
                             </div>
-                            <hr style="background-color: rgb(233, 180, 8);">
-                            <div class="d-flex flex-column text-left">
-                                <h5>Apply</h5>
-                                <p class="left" style="color : rgba(150, 144, 144, 0.63)">Please fill out the form below.</p>
-                                <form class="form-horizontal">
-                                    <div class="panel panel-default">
-                                        <div class="panel-body">
-                                            <div class="form-group der-input">
-                                                <label class="col-sm-2 control-label">Full Name: </label>
-                                                <div class="col-sm-10">
-                                                    <input type="text" class="form-control">
-                                                </div>
-                                            </div>
-                                            <div class="form-group der-input">
-                                                <label class="col-sm-2 control-label">Email: </label>
-                                                <div class="col-sm-10">
-                                                    <input type="email" class="form-control">
-                                                </div>
-                                            </div>
-                                            <div class="form-group der-input">
-                                                <label class="col-sm-2 control-label">Curriculum Vitae(CV): </label>
-                                                <div class="col-sm-10">
-                                                    <input type="file" class="form-control">
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <div class="col-sm-10 col-sm-offset-2">
-                                                    <button type="submit" class="btn btn-primary button">Submit</button>
-                                                </div>
-                                            </div>
-                                        </div>
+                            <!--If the request for "Company Person" responded , this part would be shown.-->
+                            <div>
+                                <hr style="background-color: rgb(233, 180, 8);">
+                                <hr style="background-color: rgb(233, 180, 8);">
+                                <div class="d-flex flex-column text-left">
+                                    <h5>Apply</h5>
+                                    <p class="left" style="color : rgba(150, 144, 144, 0.63)">If you are interesting in this position you can apply for it.</p>
+                                    <br>
+                                    <div class="col-sm-10 col-sm-offset-2">
+                                        <button type="submit" class="btn btn-primary button">Apply</button>
                                     </div>
-                                </form>
+                                </div>
                             </div>
+                            
                             <!--If the request for "Company Person" responded , this part would be shown.-->
                             <div>
                                 <hr style="background-color: rgb(233, 180, 8);">
                                 <hr style="background-color: rgb(233, 180, 8);">
                                 <p class="left" style="color : rgba(150, 144, 144, 0.63)">You can update or delete this AD!</p>
-                                <button type="submit" class="btn btn-primary button">Update or Delete</button>
+                                <button type="submit" class="btn btn-primary button"><a href="../UpdateOrDeleteJob/UpdateOrDeleteJob.html" style="text-decoration: none; color: #fff;">Update or Delete</a></button>
                             </div>
                         </div>
                     </div>
