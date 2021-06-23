@@ -7,7 +7,7 @@ body{
   position: relative;
   height: 100%;
   background-color: #fad42d;
-  background-image:linear-gradient(45deg, #272727 0%, rgb(238, 208, 110) 100%);
+  background-image:linear-gradient(45deg, #272727 0%, #eccf4b 100%);
   background-size: cover;
   z-index: 0;
 }
